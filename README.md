@@ -6,18 +6,18 @@ The script itself is not framework dependent, but without a framework most style
 Installation
   1. Download the latest release from the Releases tab
  
-  2.Create a new folder named Predict-Rich-Presence anywhere in your resources folder
+  2. Create a new folder named Predict-Rich-Presence anywhere in your resources folder
  
-  4.Put the script files inside of this folder
+  4. Put the script files inside of this folder
  
-  5.Configure the script according to the config file.
+  5. Configure the script according to the config file.
   
-  6.Put ensure Predict-Rich-Presence at the bottom of your server.cfg
+  6. Put ensure Predict-Rich-Presence at the bottom of your server.cfg
   
-  7.Restart your server or start the resource through TxAdmin
+  7. Restart your server or start the resource through TxAdmin
   Updating
  
-  8.Replace these files in your existing script folder:
+  8. Replace these files in your existing script folder:
 
 client.lua
 server.lua
