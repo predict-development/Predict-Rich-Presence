@@ -3,7 +3,7 @@
 -- Update checking done very easily!!
 
 
-PerformHttpRequest('https://raw.githubusercontent.com/boofiboi/FiveM-Discord-Presence/main/VERSION', function(Error, OnlineVersion, Header)
+PerformHttpRequest('https://raw.githubusercontent.com/predict-development/Predict-Rich-Presence/main/VERSION', function(Error, OnlineVersion, Header)
     -- TODO: Change this fucking function to ./ so it doesnt care what folder the script is in (PEOPLE KEEP PUTTING IT INTO DIFFERENT FOLDERS)
     OfflineVersion = LoadResourceFile('FiveM-Discord-Presence', 'VERSION')
     if Error ~= 200 then
